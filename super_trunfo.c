@@ -116,13 +116,13 @@ int main(){
     compararPibPer = pib_per_capita1 > pib_per_capita2;
     compararPoder = superPoder1 > superPoder2;
 
-    printf("População:");
-    printf("Área:");
-    printf("Pib:");
-    printf("Pontos Túristicos: ");
-    printf("Densidade populacional: ");
-    printf("Pib Per Capita: ");
-    printf("Super Poder: ");
+    printf("População: %d\n", compararPopulacao);
+    printf("Área: %d\n", compararArea);
+    printf("Pib: %d\n", compararPib);
+    printf("Pontos Túristicos: %d\n", compararPontos);
+    printf("Densidade populacional: %d\n", compararPopulacao);
+    printf("Pib Per Capita: %d\n", compararPibPer);
+    printf("Super Poder: %d\n", compararPoder);
 
     return 0;
 }
